@@ -245,6 +245,18 @@ footer{
 .link-column a{
   color: #183b54;
 }
+.subfooter{
+  background-color: #b9cde4;
+}
+.subfooter a{
+   color: #183b54;
+}
+.subfooter-container{
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding: var(--padding-inline-section);
+}
 
 .spacer{
   min-height: 50vh;
