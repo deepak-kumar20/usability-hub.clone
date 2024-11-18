@@ -226,6 +226,26 @@ padding: 120px var(--padding-inline-section);
   color: white;
   margin-top: 30px;
 }
+footer{
+  padding-block: 80px;
+  background-color: #ebf2fa;
+  align-items: start;
+  justify-content: space-between;
+  
+}
+.footer-container{
+  justify-content: space-between;
+  align-items: start;
+}
+.link-column{
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.link-column a{
+  color: #183b54;
+}
+
 .spacer{
   min-height: 50vh;
 }
